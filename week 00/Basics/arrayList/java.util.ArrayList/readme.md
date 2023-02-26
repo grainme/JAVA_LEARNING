@@ -8,3 +8,7 @@
 
 <h3>Removing</h3>
 <p>This one is pretty coo, we can actually remove an element from the list by it's actual key or by its index !!! coool</p>
+
+<h3>Get the index</h3>
+<p>straightforward, get the index of an element using the method .indexOf()</p>
+
