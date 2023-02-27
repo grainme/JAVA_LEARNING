@@ -14,7 +14,7 @@
   <pre lang="java">
   <code>
   // Implementation
-  str1=Marouane;
+  str1 = "Marouane";
   str1.indexOf("rou"); // this should output ans = 2
   </code>
   </pre>
