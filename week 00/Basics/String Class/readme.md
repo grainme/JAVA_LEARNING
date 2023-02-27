@@ -22,3 +22,20 @@
 
 <h3>char at (no [])</h3>
 <p>We cannot use brackets in strings instead we use the method .charAt()</p>
+
+<h3>Substring</h3>
+<pre lang="java">
+<code>
+public class Poetry {
+  
+	public static void main(String[] args) {
+      
+    String line = "The Heav'ns and all the Constellations rung";     
+    // first arg is inclusive, the other is exclusive
+    System.out.println(line.substring(4, 11));
+    
+  }
+  
+}
+</code>
+</pre>
