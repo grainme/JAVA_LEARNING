@@ -19,3 +19,6 @@
   </code>
   </pre>
 </p>
+
+<h3>char at (no [])</h3>
+<p>We cannot use brackets in strings instead we use the method .charAt()</p>
