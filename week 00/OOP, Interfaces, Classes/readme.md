@@ -78,3 +78,40 @@ class B extends A{  //Inherits parent class methods
 }
 ```
 
+<h2>Polymorphisme</h2>
+<p>It is the ability of OOP languages to differentiate between entities with the same name efficiently. This is done by JAVA with the help of the signature and declaration of these entities. The ability to appear in different form called polymorphism.<br>
+There are two kinds of Polymorphism (mainly in java) : <br>
+<li>Overloading : when using for example the same name for different methods but with different parametres.</li>
+<li>Overriding : when we redefine already defined methods (like toString) and change their behavior (implement a new body).</li>
+</p>
+
+```java
+    public int sum(int x, int y)
+    {
+        return (x + y);
+    }
+    public int sum(int x, int y, int z)
+    {
+        return (x + y + z);
+    }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
