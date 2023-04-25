@@ -13,6 +13,21 @@
 <p>Data abstraction is basically hiding the non essential data from the user.<br>
 Ex : A car is viewed as a car rather than its individual components.<br>
 In <strong>JAVA</strong>, Abstraction is achieved using Interfaces and abstract classes. The abstract method contains only method declaration but not implementation.</p>
+
+```java
+abstract class Hello{
+  //abstract methods declaration
+  abstract void hi();
+  abstract void hello();
+  abstract void welcome();
+}
+```
+
+<h2>Encapsulation</h2>
+<p>Data abstraction is basically hiding the non essential data from the user.<br>
+Ex : A car is viewed as a car rather than its individual components.<br>
+In <strong>JAVA</strong>, Abstraction is achieved using Interfaces and abstract classes. The abstract method contains only method declaration but not implementation.</p>
+
 ```java
 abstract class Hello{
   //abstract methods declaration
