@@ -10,6 +10,61 @@
   <li>default : I don't care about this one!</li>
 </ol>
 
+<h2>Class</h2>
+<p>A class is a user-defined blueprint or prototype from which objects are created.</p>
+
+```java
+// Class Declaration
+public class Dog {
+
+    // Instance Variables
+    String name;
+    String breed;
+    int age;
+    String color;
+
+    // Constructor Declaration of Class
+    public Dog(String name, String breed,
+               int age, String color)
+    {
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+        this.color = color;
+    }
+
+    // method 1
+    public String getName()
+    {
+        return name;
+    }
+
+    @Override
+    public String toString()
+    {
+        return ("Hi my name is "
+                + this.getName()
+                + ".\nMy breed, age and color are "
+                + this.getBreed() + ", "
+                + this.getAge() + ", "
+                + this.getColor());
+    }
+
+    public static void main(String[] args)
+    {
+        Dog tuffy = new Dog("tuffy", "papillon",
+                            5, "white");
+        System.out.println(tuffy.toString());
+    }
+}
+```
+
+<h2>Interface</h2>
+<p>
+    Like a class, an interface can have methods and variables but the methods declared in the interface are by default abstract(only method, bo body).
+  <br>Additional Infos : a Class can implement multiple interfaces and an interface cannot contain a constructor. 
+</p>
+
 <h2>Abstraction</h2>
 <p>Data abstraction is basically hiding the non essential data from the user.<br>
 Ex : A car is viewed as a car rather than its individual components.<br>
@@ -32,23 +87,23 @@ Encapsulation can be achieved by declaring all the variables in a class as priva
 class Person {
     private String name;
     private int age;
- 
+
     public String getName() { return name; }
- 
+
     public void setName(String name) { this.name = name; }
- 
+
     public int getAge() { return age; }
- 
+
     public void setAge(int age) { this.age = age; }
 }
- 
+
 public class Main {
     public static void main(String[] args)
     {
         Person person = new Person();
         person.setName("John");
         person.setAge(30);
- 
+
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
     }
@@ -69,7 +124,7 @@ class A{
   void method1(){}
   void method2(){}
 }
-  
+
 //derived class or child class or base class
 class B extends A{  //Inherits parent class methods
   //child class methods
@@ -95,23 +150,3 @@ There are two kinds of Polymorphism (mainly in java) : <br>
         return (x + y + z);
     }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
