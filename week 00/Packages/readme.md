@@ -1,6 +1,6 @@
 <h1>Packages</h1>
 <p>A package is a namespace that mainly contains classes an interfaces.
-    For instance, the standard class <strong>ArrayList</strong> is in the package <strong>java.util</strong>. For this class , java.util.ArrayList is called its fully qualified name because this syntax has no ambiguity. Classes in different packages can have the same name. For example, you have the two classes java.util.Date and java.sql.Date, which are different. If no package is declared in a class, its package is the default package.
+    For instance, the standard class <strong>ArrayList</strong> is in the package <strong>java.util</strong>. For this class, java.util.ArrayList is called its fully qualified name because this syntax has no ambiguity.<br> Classes in different packages can have the same name. For example, you have the two classes java.util.Date and java.sql.Date, which are different. If no package is declared in a class, its package is the default package.
   <br>To create package use this command
 
     ```bash
